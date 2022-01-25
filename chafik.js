@@ -1,4 +1,5 @@
- var templatee = `
+ if(window.location.host ==='bepin.youcan.shop'){
+var templatee = `
   <form action="https://sheetdb.io/api/v1/isxdi3oi5zlsr" method="POST" id="sheetdb-form">
   <div class="checkout-groups"><h2 class="checkout-heading">Customer Information</h2> <div class="form-group is-required"> <input type="text"  name="data[name]" placeholder="First name"> <!----></div> <!----><div class="form-group is-required"><input type="text" name="data[phone]" placeholder="Last name"> <!----></div> <!----><div class="form-group is-required"><label class="form-label"></label> <input type="text" name="data[date]" placeholder="Phone or email"> <!----></div> <div class="product-section form-group add-to-cart-section" style="
     width: 100%;
@@ -29,4 +30,4 @@
             ).then((html) => {
               console.log('k,kjk')
             });
-        });
+        });}
