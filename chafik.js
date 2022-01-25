@@ -12,8 +12,7 @@
   `;
   document.querySelectorAll('.add-to-cart-section')[0].innerHTML= templatee;
   
-</script>
-<script>
+
        
         var form = document.getElementById('sheetdb-form');
 
